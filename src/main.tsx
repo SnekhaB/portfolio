@@ -6,6 +6,13 @@ import './styles.css';
 
 const router = getRouter();
 
+// Handle GitHub Pages 404 redirect
+const redirectPath = sessionStorage.getItem('redirect_to');
+if (redirectPath) {
+  sessionStorage.removeItem('redirect_to');
+  router.navigate({ to: redirectPath as any });
+}
+
 createRoot(document.getElementById('app')!).render(
   <StrictMode>
     <RouterProvider router={router} />
