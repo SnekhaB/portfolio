@@ -23,7 +23,7 @@ export function Hero() {
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-signal" />
             </span>
             <span className="label-mono !text-[0.65rem] text-foreground">
-              Open to AI Engineering roles
+              Open to AI/ML Engineering roles
             </span>
           </div>
 

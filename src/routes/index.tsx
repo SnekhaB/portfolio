@@ -8,7 +8,7 @@ import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
 import { Contact } from "@/components/portfolio/Contact";
 
-const title = "Snekha Baskar — AI Engineer | RAG, LLM & Multi-Agent Systems";
+const title = "Snekha Baskar — AI/ML Engineer | RAG, LLM & Multi-Agent Systems";
 const description =
   "AI Engineer building production RAG pipelines, LLM applications and multi-agent systems with LangGraph, LlamaIndex, Qdrant and Python.";
 

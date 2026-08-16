@@ -3,7 +3,7 @@ import { Reveal, SectionHeading } from "./Reveal";
 import { profile } from "@/lib/portfolio-data";
 
 const channels = [
-  { label: "LinkedIn", value: "snekha-b", href: profile.linkedin, Icon: Linkedin },
+  { label: "LinkedIn", value: "snekhabaskar", href: profile.linkedin, Icon: Linkedin },
   { label: "GitHub", value: "SnekhaB", href: profile.github, Icon: Github },
   { label: "Resume", value: "Full CV (PDF)", href: profile.resumeUrl, Icon: FileText },
 ];
@@ -14,7 +14,7 @@ export function Contact() {
       <SectionHeading
         index="06 / Contact"
         title="Let's build something that reaches production."
-        lead="Open to AI Engineer, Generative AI Engineer, and ML Engineer roles. The fastest way to reach me is LinkedIn."
+        lead="Open to AI/ML Engineer, Generative AI Engineer, and ML Engineer roles. The fastest way to reach me is LinkedIn."
       />
 
       <div className="grid gap-4 sm:grid-cols-3">

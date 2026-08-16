@@ -1,10 +1,10 @@
 export const profile = {
   name: "Snekha Baskar",
-  role: "AI Engineer",
+  role: "AI/ML Engineer",
   tagline:
     "I build intelligent, agentic systems that bridge the gap between complex LLMs and real-world business needs.",
   resumeUrl:
-    "https://drive.google.com/file/d/1unVrNyoMKFbi7tAIrlwpIXT3OBD-pcDq/view?usp=sharing",
+    "https://drive.google.com/file/d/12jknqANJi6ym10rfI_mtE38ldij9-hHM/view",
   github: "https://github.com/SnekhaB",
   linkedin: "https://www.linkedin.com/in/snekhabaskar/",
 };
@@ -25,7 +25,7 @@ export const stack = [
 ];
 
 export const experience = {
-  role: "AI Engineer",
+  role: "AI/ML Engineer",
   company: "Neorains Technologies Private Limited",
   period: "Jul 2025 — Present",
   bullets: [
