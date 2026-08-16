@@ -7,19 +7,13 @@
     <script>
       // Redirect all 404s to the home page with the path preserved
       // This allows the SPA router to handle all routes
-      const basePath = '/portfolio';
       const path = window.location.pathname;
       const searchParams = window.location.search;
       const hash = window.location.hash;
       
-      // Remove the base path from the stored path
-      const relativePath = path.startsWith(basePath) 
-        ? path.slice(basePath.length) 
-        : path;
-      
       // Store the original path and redirect to home
-      sessionStorage.setItem('redirect_to', relativePath + searchParams + hash);
-      window.location.href = basePath + '/';
+      sessionStorage.setItem('redirect_to', path + searchParams + hash);
+      window.location.href = '/';
     </script>
   </head>
   <body>

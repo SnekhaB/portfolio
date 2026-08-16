@@ -4,15 +4,10 @@ import { routeTree } from "./routeTree.gen";
 
 export const getRouter = () => {
   const queryClient = new QueryClient();
-  
-  // Use /portfolio/ basename only in production (GitHub Pages)
-  // Use / basename in development (localhost)
-  const basename = import.meta.env.PROD ? "/portfolio/" : "/";
 
   const router = createRouter({
     routeTree,
     context: { queryClient },
-    basename,
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   });
