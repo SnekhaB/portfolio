@@ -7,12 +7,12 @@ export const getRouter = () => {
   
   // Use /portfolio/ basename only in production (GitHub Pages)
   // Use / basename in development (localhost)
-  const basename = import.meta.env.PROD ? "/portfolio/" : "/";
+  const basepath = import.meta.env.PROD ? "/portfolio/" : "/";
 
   const router = createRouter({
     routeTree,
     context: { queryClient },
-    basename,
+    basepath,
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   });
